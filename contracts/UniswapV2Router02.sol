@@ -1,8 +1,8 @@
 // SPDX-License-Identifier: GPL-3.0
 pragma solidity =0.6.12;
 
-import '@venomswap/core/contracts/interfaces/IUniswapV2Factory.sol';
-import '@venomswap/lib/contracts/libraries/TransferHelper.sol';
+import '@lootswap/core/contracts/interfaces/IUniswapV2Factory.sol';
+import '@lootswap/lib/contracts/libraries/TransferHelper.sol';
 
 import './interfaces/IUniswapV2Router02.sol';
 import './libraries/UniswapV2Library.sol';
