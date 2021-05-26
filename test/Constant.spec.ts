@@ -7,7 +7,7 @@ const COMPUTED_INIT_CODE_HASH = keccak256(['bytes'], [`0x${bytecode}`])
 describe('constants', () => {
     describe('INIT_CODE_HASH', () => {
       it('matches computed bytecode hash', () => {
-        expect(COMPUTED_INIT_CODE_HASH).to.eq('0x444017f293e8ad8ec0a364790d6b32f6b46851d943659709a227c1e359285618')
+        expect(COMPUTED_INIT_CODE_HASH).to.eq('0x792891fe5061e302693d65b4f261bab0a629c27b32341741dea724c43a3098ec') // init is different when truffle compiling
       })
     })
   })
